@@ -23,7 +23,6 @@ function App() {
         <Route path='/products' element={<Products setId={setId}/>} />
         <Route path='/edit/:id' element={<Edit id={id}/>} />
         <Route path='/create' element={<Create/>} />
-        {/* <Route path='/create' element={<FormikCreateday11/>} /> */}
       </Routes>
       </BrowserRouter>
     </div>
